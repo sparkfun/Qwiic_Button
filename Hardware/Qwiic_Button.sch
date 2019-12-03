@@ -19757,15 +19757,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39270/1">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.1524" layer="21"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<package name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39270/1" locally_modified="yes">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
 <wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="1"/>
 <wire x1="0" y1="0" x2="-1.016" y2="0" width="0.254" layer="1"/>
 <smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
@@ -19908,7 +19908,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" type="box">
+<package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" locally_modified="yes" type="box">
 <packageinstances>
 <packageinstance name="SMT-JUMPER_3_2-NC_TRACE_SILK"/>
 </packageinstances>
@@ -20377,11 +20377,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6" y1="-1" x2="5" y2="-1" width="0.2032" layer="21"/>
 <wire x1="5" y1="-1" x2="5" y2="-4" width="0.2032" layer="21"/>
 <wire x1="5" y1="-4" x2="6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="0.635" y1="-0.635" x2="0" y2="0.635" width="0.3048" layer="21"/>
-<wire x1="0" y1="0.635" x2="-0.635" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="-0.635" y1="0.635" x2="0" y2="0.635" width="0.3048" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.635" x2="-0.635" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="0.635" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
 <circle x="-4" y="4" radius="0.4" width="0.9" layer="21"/>
 <circle x="4" y="4" radius="0.4" width="0.9" layer="21"/>
@@ -20397,9 +20397,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="0" y="-4.5" drill="1.6"/>
 <text x="3.81" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="0.635" y1="-2.413" x2="-0.635" y2="-2.413" width="0.3048" layer="21"/>
-<wire x1="0" y1="-3.048" x2="0" y2="-1.778" width="0.3048" layer="21"/>
-<wire x1="0.635" y1="2.413" x2="-0.635" y2="2.413" width="0.3048" layer="21"/>
+<wire x1="0.635" y1="-2.413" x2="-0.635" y2="-2.413" width="0.2032" layer="21"/>
+<wire x1="0" y1="-3.048" x2="0" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="2.413" x2="-0.635" y2="2.413" width="0.2032" layer="21"/>
 </package>
 <package name="CHERRY-MX-LED">
 <description>&lt;h3&gt;Cherry MX Switch - Electromechanical Swith w/ LED&lt;/h3&gt;
@@ -20786,6 +20786,7 @@ Software configurable as well (all jumpers open)</text>
 <wire x1="147.32" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="97" style="longdash"/>
 <text x="2.54" y="93.98" size="2.54" layer="97" font="vector">Address Jumpers</text>
 <text x="149.86" y="93.98" size="2.54" layer="97" font="vector">Button</text>
+<text x="2.54" y="177.8" size="1.27" layer="97" font="vector">VIN: 1.8-5.5V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
