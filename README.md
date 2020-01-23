@@ -26,10 +26,6 @@ Documentation
 * **[SparkFun Qwiic Button Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Button_Arduino_Library)** - Arduino library for the Qwiic Button and Switch.
 * **[SparkFun Qwiic Button Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all)** - Basic Hookup Guide.
 
-Firmware
---------------
-* **[SparkFun Qwiic Switch](https://github.com/sparkfunX/Qwiic_Switch)** - Firmware for the Qwiic Button/Switch/Arcade.
-
 Product Versions
 --------------
 * [SPX-15584](https://www.sparkfun.com/products/15584) - Original SparkX version of the Qwiic Button.
