@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -166,7 +166,7 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="1.27" y="12.7" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="center">v10</text>
+<text x="1.27" y="12.7" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90" align="center">v11</text>
 <text x="11.43" y="-8.89" size="1.778" layer="51" font="vector">Fisher M.</text>
 <text x="10.16" y="-11.43" size="1.778" layer="51" font="vector">Andy England</text>
 <dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="27.94" textsize="1.778" layer="47" unit="inch"/>
@@ -3178,6 +3178,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.635" y1="-2.413" x2="-0.635" y2="-2.413" width="0.2032" layer="21"/>
 <wire x1="0" y1="-3.048" x2="0" y2="-1.778" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="2.413" x2="-0.635" y2="2.413" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-7.874" x2="-1.905" y2="-7.874" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-8.509" x2="-1.27" y2="-7.239" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -3794,9 +3796,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$17" library="buzzard_labels (8)" package="A11" value="" x="3.683" y="5.08" smashed="yes" rot="MR0"/>
 <element name="U$19" library="buzzard_labels (8)" package="A22" value="" x="3.683" y="3.175" smashed="yes" rot="MR0"/>
 <element name="U$21" library="buzzard_labels (8)" package="A33" value="" x="3.4925" y="1.27" smashed="yes" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-7.62" y="-11.43"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="12.7635" y="21.209" rot="MR0"/>
-<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="5.334" y="19.812"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-7.62" y="-11.43" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="12.7635" y="21.209" smashed="yes" rot="MR0"/>
+<element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="20.2565" y="20.447" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
