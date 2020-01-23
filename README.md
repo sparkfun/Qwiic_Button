@@ -2,12 +2,12 @@ SparkFun Qwiic Button
 ========================================
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><a href="https://www.sparkfun.com/products/15584"><img src="https://cdn.sparkfun.com//assets/parts/1/4/1/9/0/15584-Qwiic_Button_-_Red-01.jpg"></a></td>
-   <td><a href="https://www.sparkfun.com/products/15585"><img src="https://cdn.sparkfun.com//assets/parts/1/4/1/9/1/15585-Qwiic_Button_-_Blue-02.jpg"></a></td>
+   <td><a href="https://www.sparkfun.com/products/15932"><img src="https://cdn.sparkfun.com/assets/parts/1/4/5/7/3/15932-SparkFun_Qwiic_Button_-_Red-01.jpg"></a></td>
+   <td><a href="https://www.sparkfun.com/products/15931"><img src="https://cdn.sparkfun.com/assets/parts/1/4/5/7/2/15931-SparkFun_Qwiic_Button_Breakout-01.jpg"></a></td>
   </tr>
   <tr align="center">
-    <td><a href="https://www.sparkfun.com/products/15584">SparkFun Qwiic Button - Red (SPX-15584)</a></td>
-    <td><a href="https://www.sparkfun.com/products/15585">SparkFun Qwiic Arcade - Blue (SPX-15585)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15932">SparkFun Qwiic Button - Red (BOB-15932)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15931">SparkFun Qwiic Button Breakout (BOB-15931)</a></td>
   </tr>
 </table>
 
