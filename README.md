@@ -30,6 +30,10 @@ Firmware
 --------------
 * **[SparkFun Qwiic Switch](https://github.com/sparkfunX/Qwiic_Switch)** - Firmware for the Qwiic Button/Switch/Arcade.
 
+Product Versions
+--------------
+* [SPX-15584](https://www.sparkfun.com/products/15584) - Original SparkX version of the Qwiic Button.
+
 License Information
 -------------------
 
