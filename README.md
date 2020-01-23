@@ -18,6 +18,7 @@ Repository Contents
 
 * **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
+* **/Firmware** - The latest firmware on the Qwiic Button boards
 * **/Hardware/Production** - Production panel files (.brd)
 
 Documentation
