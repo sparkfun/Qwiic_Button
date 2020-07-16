@@ -3,11 +3,13 @@ SparkFun Qwiic Button
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
    <td><a href="https://www.sparkfun.com/products/15932"><img src="https://cdn.sparkfun.com/assets/parts/1/4/5/7/3/15932-SparkFun_Qwiic_Button_-_Red-01.jpg"></a></td>
+   <td><a href="https://www.sparkfun.com/products/16842"><img src="https://cdn.sparkfun.com//assets/parts/1/5/7/6/7/16842-SparkFun_Qwiic_Button_-_Green_LED-01.jpg"></a></td>
    <td><a href="https://www.sparkfun.com/products/15931"><img src="https://cdn.sparkfun.com/assets/parts/1/4/5/7/2/15931-SparkFun_Qwiic_Button_Breakout-01.jpg"></a></td>
   </tr>
   <tr align="center">
-    <td><a href="https://www.sparkfun.com/products/15932">SparkFun Qwiic Button - Red (BOB-15932)</a></td>
-    <td><a href="https://www.sparkfun.com/products/15931">SparkFun Qwiic Button Breakout (BOB-15931)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15932">SparkFun Qwiic Button - Red <br />(BOB-15932)</a></td>
+    <td><a href="https://www.sparkfun.com/products/16842">SparkFun Qwiic Button - Green <br />(BOB-16842)</a></td>
+    <td><a href="https://www.sparkfun.com/products/15931">SparkFun Qwiic Button Breakout <br />(BOB-15931)</a></td>
   </tr>
 </table>
 
@@ -28,6 +30,10 @@ Documentation
 
 Product Versions
 --------------
+
+* [BOB-15932](https://www.sparkfun.com/products/15932) - SparkFun Red Version with red LED pushbutton
+* [BOB-16842](https://www.sparkfun.com/products/16842) - SparkFun Red Version with green LED pushbutton
+* [BOB-15931](https://www.sparkfun.com/products/15931) - SparkFun Red Version without button
 * [SPX-15584](https://www.sparkfun.com/products/15584) - Original SparkX version of the Qwiic Button.
 
 License Information
