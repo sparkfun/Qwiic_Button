@@ -25,8 +25,9 @@ Repository Contents
 
 Documentation
 --------------
-* **[SparkFun Qwiic Button Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Button_Arduino_Library)** - Arduino library for the Qwiic Button and Switch.
 * **[SparkFun Qwiic Button Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-button-hookup-guide/all)** - Basic Hookup Guide.
+* **[SparkFun Qwiic Button Arduino Library](https://github.com/sparkfun/SparkFun_Qwiic_Button_Arduino_Library)** - Arduino library for the Qwiic Button and Switch.
+* **[SparkFun Qwiic Button Python Package](https://github.com/sparkfun/Qwiic_Button_Py)** - Python package for the Qwiic Button and Qwiic Switch
 
 Product Versions
 --------------
