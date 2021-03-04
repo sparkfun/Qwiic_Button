@@ -49,14 +49,17 @@
 
 #include "PinChangeInterrupt.h" //Nico Hood's library: https://github.com/NicoHood/PinChangeInterrupt/
 //Used for pin change interrupts on ATtinys (encoder button causes interrupt)
-//Note: To make this code work with Nico's library you have to comment out https://github.com/NicoHood/PinChangeInterrupt/blob/master/src/PinChangeInterruptSettings.h#L228
+  /*** NOTE, PinChangeInterrupt library NEEDS a modification to work with this code.
+  *** you MUST comment out this line: 
+  *** https://github.com/NicoHood/PinChangeInterrupt/blob/master/src/PinChangeInterruptSettings.h#L228
+  */
 
 #include <avr/sleep.h> //Needed for sleep_mode
 #include <avr/power.h> //Needed for powering down perihperals such as the ADC/TWI and Timers
 
 #define DEVICE_ID 0x5D
 #define FIRMWARE_MAJOR 0x01 //Firmware Version. Helpful for tech support.
-#define FIRMWARE_MINOR 0x02
+#define FIRMWARE_MINOR 0x03
 
 #define DEFAULT_I2C_ADDRESS 0x6F
 
@@ -97,13 +100,13 @@ volatile memoryMap registerMap {
   DEVICE_ID,           //id
   FIRMWARE_MINOR,      //firmwareMinor
   FIRMWARE_MAJOR,      //firmwareMajor
-  {0, 0, 0},           //buttonStatus {isPressed, hasBeenClicked, eventAvailable}
-  {1, 1},              //interruptConfig {pressedEnable, clickedEnable}
+  {0, 0, 0},           //buttonStatus {eventAvailable, hasBeenClicked, isPressed}
+  {1, 1},              //interruptConfig {clickedEnable, pressedEnable}
   0x000A,              //buttonDebounceTime
-  {0, 1, 0},           //pressedQueueStatus {isFull, isEmpty, popRequest}
+  {0, 1, 0},           //pressedQueueStatus {popRequest, isEmpty, isFull}
   0x00000000,          //pressedQueueFront
   0x00000000,          //pressedQueueBack
-  {0, 1, 0},           //clickedQueueStatus {isFull, isEmpty, popRequest}
+  {0, 1, 0},           //clickedQueueStatus {popRequest, isEmpty, isFull}
   0x00000000,          //clickedQueueFront
   0x00000000,          //clickedQueueBack
   0x00,                //ledBrightness
@@ -118,13 +121,13 @@ memoryMap protectionMap = {
   0x00,       //id
   0x00,       //firmwareMinor
   0x00,       //firmwareMajor
-  {1, 1, 1},  //buttonStatus {isPressed, hasBeenClicked, eventAvailable}
-  {1, 1},     //interruptConfig {pressedEnable, clickedEnable}
+  {1, 1, 1},  //buttonStatus {eventAvailable, hasBeenClicked, isPressed}
+  {1, 1},     //interruptConfig {clickedEnable, pressedEnable}
   0xFFFF,     //buttonDebounceTime
-  {0, 0, 1},  //pressedQueueStatus {isFull, isEmpty, popRequest}
+  {1, 0, 0},  //pressedQueueStatus {popRequest, isEmpty, isFull}
   0x00000000, //pressedQueueFront
   0x00000000, //pressedQueueBack
-  {0, 0, 1},  //clickedQueueStatus {isFull, isEmpty, popRequest}
+  {1, 0, 0},  //clickedQueueStatus {popRequest, isEmpty, isFull}
   0x00000000, //clickedQueueFront
   0x00000000, //clickedQueueBack
   0xFF,       //ledBrightness

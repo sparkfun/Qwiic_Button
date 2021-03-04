@@ -80,11 +80,12 @@ struct Queue {
 
   //Removes a value from the back of the buffer, but also returns the value it removed
   unsigned long pop() {
-    full = false;
 
     if (!isEmpty()) {
       unsigned long return_val = buffer[tail];
       incrementTail();
+      full = false;
+
       return return_val;
     }
   }
